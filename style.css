@@ -537,8 +537,366 @@ iframe {
         padding: 0 10px;
     }
 
+    /* main section code start */
+
+    /* .cir-bac-img{
+    max-width: 200px;
+} */
+  
+.back-first-img { 
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.cir-bac-img{
+    top: 35%;
+    width: 60%;
+    height: 290%;
+}
+
+.micro-img{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    width: 32%;
+    height: 180%;
+}
+
+
+
+.new {
+    color: #FFFFFF;
+    position: absolute;
+    padding: 8px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(8, 182, 34);
+    border-radius: 20px;
+    border: none;
+    color: rgb(238, 233, 233);
+    top: 130px;
+    right: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    z-index: 3;
+    left: 63%;
+    top: 45%;
+}
+.main-item{
+    padding-top: 240px;
+    padding-bottom: 30px;
+}
+.main-item-p{
+    padding: 0 5px 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .Podcast-item {
+        padding: 0 20px;
+    }
+
+    .Podcast-item-menu {
+        font-size: 2rem;
+    }
+
+
+    .main-card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+
+    }
+
+    .card-container {
+        margin: 0 auto;
+    }
+
+    .card-item {
+        padding-top: 40px;
+    }
+
+    .main-card {
+        gap: 10px;
+    }
+
+
+
+
+    .main-socal-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+
+    .cosal-first,
+    .cosal-icon2,
+    .cosal-icon3,
+    .cosal-icon4 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .hello {
+        padding-bottom: 20px;
+    }
+
+  .socal-name {
+        font-size: 2rem;
+        padding-top: 50px;
+    }
+    
+    .container-card-socal-icon{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Featured-card-container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .container-Featured {
+        max-width: 90%;
+    }
+
+    .Featured-card iframe {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Alex-main-container {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .alex-icon {
+        justify-content: center;
+    }
+
+    .kamrul-flex {
+        padding-bottom: 50px;
+    }
+
+
+    /* footer section code start */
+
+    .footer-icon {
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* media screen tad */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .icon-nav {
+        display: block;
+        font-size: 20px;
+    }
+
+    .section-width {
+        padding: 0 20px;
+    }
+
+
+
+
+.new {
+    color: #FFFFFF;
+    position: absolute;
+    padding: 8px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(8, 182, 34);
+    border-radius: 20px;
+    border: none;
+    color: rgb(238, 233, 233);
+    top: 130px;
+    right: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    z-index: 3;
+    left: 60%;
+    top: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Podcast-item-menu-ber {
+        padding: 0 20px;
+    }
+
+
+
+
+
+
+
+    .main-socal-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+    }
+
+
+    .cosal-first,
+    .cosal-icon2,
+    .cosal-icon3,
+    .cosal-icon4 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .hello {
+        padding-bottom: 20px;
+    }
+
+  .socal-name {
+        font-size: 2rem;
+        padding-top: 60px;
+    }
+    
+    .container-card-socal-icon{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Featured-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .Featured-card{
+        width: 100%;
+    } */
+
+    .container-Featured {
+        max-width: 60%;
+    }
+
+    .Featured-card iframe {
+        width: 100%;
+    }
+
+
+
+    .Alex-main-container {
+        margin: 0 auto;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+
+    .alex-icon {
+        justify-content: center;
+    }
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
